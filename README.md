@@ -18,42 +18,41 @@
 
 ### 🔨 Current Projects
 
-- 🛠 **Lead Developer** at [Bideshi Jagir](https://play.google.com/store/apps/details?id=com.baideshik.rojgarjob)
-- 🤝 Seeking collaborators for [Prashna App](https://play.google.com/store/apps/details?id=com.bijay.prashna)
-- 🌐 Maintaining [baideshikrojgar](https://www.baideshikrojgar.site/)
+- 🛠 <b>Lead Developer</b> at <a href="https://play.google.com/store/apps/details?id=com.baideshik.rojgarjob">Bideshi Jagir</a>
+- 🤝 Seeking collaborators for <a href="https://play.google.com/store/apps/details?id=com.bijay.prashna">Prashna App</a>
+- 🌐 Maintaining <a href="https://www.baideshikrojgar.site/">baideshikrojgar</a>
 
 ---
 
 ### 🧠 Knowledge Base
+```javascript
 class FullStackDeveloper {
-    constructor() {
-        this.tech_stack = {
-            frontend: {
-                frameworks: ['React', 'Next.js'],
-                styling: ['Tailwind CSS', 'Bootstrap'],
-                languages: ['JavaScript', 'TypeScript']
-            },
-            backend: {
-                runtime: ['Node.js'],
-                languages: ['JavaScript', 'PHP', 'Python'],
-                apis: ['REST', 'GraphQL']
-            },
-            databases: ['MongoDB', 'MySQL', 'PostgreSQL'],
-            devops: ['Docker', 'AWS', 'CI/CD']
-        };
-    }
+  constructor() {
+    this.tech_stack = {
+      frontend: {
+        languages: ['HTML', 'CSS', 'JavaScript'],
+        frameworks: ['React'],
+        styling: ['Bootstrap', 'Tailwind CSS']
+      },
+      backend: {
+        runtime: ['Node.js'],
+        languages: ['JavaScript', 'PHP'],
+        frameworks: ['Express.js']
+      },
+      databases: ['MySQL']
+    };
+  }
 
-    currentFocus() {
-        return {
-            learning: ["Advanced Python Automation", "Microservices Architecture"],
-            building: ["Full-stack Applications", "Scalable APIs"],
-            certifications: ["AWS Certified Developer", "MongoDB Professional"]
-        };
-    }
+  currentFocus() {
+    return {
+      learning: ['Next.js', 'TypeScript'],
+      building: ['Full-stack Applications', 'Scalable APIs']
+    };
+  }
 
-    getExperience() {
-        return "1.5+ years of professional development experience";
-    }
+  getExperience() {
+    return '1.5+ years of professional development experience';
+  }
 }
 
 // Example usage:
@@ -61,3 +60,4 @@ const developer = new FullStackDeveloper();
 console.log(developer.tech_stack);
 console.log(developer.currentFocus());
 console.log(developer.getExperience());
+```
